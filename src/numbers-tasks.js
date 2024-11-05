@@ -553,7 +553,8 @@ function roundToNearestInteger(number) {
  * -5.5 => -5
  */
 function getIntegerPartNumber(number) {
-  return Math.trunc(number);
+  const sum = Math.trunc(number);
+  return sum;
 }
 
 /**
